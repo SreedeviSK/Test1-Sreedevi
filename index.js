@@ -38,6 +38,11 @@ document.querySelectorAll(".carousel").forEach((carousel) => {
     { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/t/o/tomato-chutney.jpg', title: 'Tomato Onion Chutney (150g)',price:"$3"},
     { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/f/t/fth-dosa-classic.jpg', title: 'Idly / Dosa Batter (Freshly Stone-ground, no added',price:"$3" },
     { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/t/o/tomato-chutney.jpg', title: 'Tomato Onion Chutney (150g)',price:"$3",price:"$3" },
+    { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/f/t/fth-dosa-classic.jpg', title: 'Idly / Dosa Batter (Freshly Stone-ground, no added',price:"$3"},
+    { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/i/n/indian_basa_cubes.jpg', title: 'Fresh Indian Baasa / Pangasius / Pangas - Cube (480g to 500g',price:"$3" },
+    { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/t/o/tomato-chutney.jpg', title: 'Tomato Onion Chutney (150g)',price:"$3"},
+    { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/f/t/fth-dosa-classic.jpg', title: 'Idly / Dosa Batter (Freshly Stone-ground, no added',price:"$3" },
+    { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/t/o/tomato-chutney.jpg', title: 'Tomato Onion Chutney (150g)',price:"$3",price:"$3" },
     { imageUrl: 'https://static.freshtohome.com/cdn-cgi/image/width=600/https://static.freshtohome.com/media/catalog/product/f/t/fth-dosa-classic.jpg', title: 'Idly / Dosa Batter (Freshly Stone-ground, no added',price:"$3"}
 ];
 
