@@ -1,0 +1,270 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    background-color: red;
+    z-index: 3;
+}
+.navbar-top{
+    width: 100%;
+    height: auto;
+    background-color: green;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.navbar-bottom{
+    width: 100%;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.top-left{
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 128px;
+    
+}
+.top-left a, .top-right a, .top-right-dropdown{
+    color: white;
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.top-right{
+    display: flex;
+    flex-direction: row;
+}
+.top-right-items, .top-right-dropdown{
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 6px;
+    padding-bottom: 6px;
+
+    
+}
+.top-right-dropdown{
+    padding-right: 128px;
+}
+.bottom-left{
+    width: auto;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    padding-left: 128px;
+    
+}
+
+.bottom-right{
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    padding-right: 128px;
+}
+.bottom-right div{
+    padding-left: 20px;
+}
+img{
+    padding-right: 60px;
+    width: 80px;
+    height: 50px;
+}
+input{
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+}
+
+
+
+
+.carousel {
+    position: relative;
+    padding: 20px 110px;
+    
+  }
+  
+  .carousel__item {
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    display: none;
+  }
+  
+  .carousel__item--selected {
+    display: block;
+  }
+  
+  .carousel__nav {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+  
+  .carousel__button {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background: rgba(8, 8, 8, 0.2);
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+  }
+  
+  .carousel__button--selected {
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .body-top{
+    position: relative;
+    padding-left: 110px;
+    padding-right: 110px;
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-around;
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .body-top a{
+    padding: 4px;
+  }
+  .icon-text{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 110px;
+  }
+  .icon-text .it{
+    display: flex;
+    flex-direction: row;
+    width: 33%;
+  }
+  .it img, p{
+    padding: 8px;
+  }
+
+  .cards {
+    padding-left: 80px;
+    padding-right: 100px;
+}
+.main-heading-card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+}
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    height: auto;
+    margin-left: 10px;
+}
+
+.card {
+    margin: 12px;
+    width: 18%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 0px;
+    
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px 8px 0px 0px ;
+}
+
+.card h2 {
+    padding: 4px 8px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-size: 12px;
+    font-weight: 450;
+    color: #333;
+}
+
+
+
+
+
+
+
+
+
+
+
+footer .f-heading ,.f-items ,.f-places{
+    padding: 10px 100px 0px 100px;
+}
+footer{
+    float: right;
+    margin: 0px 0px 0px 0px;
+    bottom: 0;
+    left: 0;
+    background-color: #eee;
+    color: #777;
+    
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8;
+}
+.f-heading{
+    font-weight: 600;
+    font-size: 14px;
+    padding-bottom: 5px;
+}
+.f-items h3{
+    font-weight: 600;
+    font-size: 12px;
+}
+.f-items p{
+    font-weight: 400;
+    font-size: 12px;
+}
+.f-items div{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+.f-footer{
+    background-color: white;
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 3px;
+    padding-bottom: 9px;
+    
+}
+.f-places span{
+    font-size: 12px;
+    display: inline-block;
+    width: 120px;
+}
+.f-places a{
+    text-decoration: none;
+    color: #777;
+}
+.f-places{
+    padding-bottom: 3px;
+}
